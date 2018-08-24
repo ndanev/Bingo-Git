@@ -1,0 +1,135 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #dae9e4;
+}
+
+.header {
+    background-color: #3c2e3d;
+    color: #ffffff;
+}
+.main-content {
+    
+}
+
+.header-inner {
+    padding: 0 20px;
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+
+.header img {
+    width: 70px;
+    height: 70px;
+    margin-bottom: 20px;
+}
+
+.header h1 a {
+    text-decoration: none;
+    color: #fff;
+    text-shadow: 3px 2px rgb(19, 21, 22);
+}
+
+.header h4 {
+    text-shadow: 3px 2px rgb(19, 21, 22);
+}
+
+h1, h4, h3 {
+    display: inline-block;
+    padding: 15px;
+}
+.choose-lists {
+    margin: 0 10px;
+    font-weight: 900;
+}
+.btn-class {
+    margin: 20px 20px 20px 20px;
+
+}
+.column {
+    width: 50%;
+    padding: 10px;
+
+
+}
+.grid-container {
+    width: 475px;
+    height: 325px;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto auto auto;
+    grid-gap: 0.5px;
+    background-color: #68726e;
+    padding: 2px;
+    margin: 0 20px;
+    text-align: center;
+    
+}
+.grid-container>div {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    vertical-align: middle;
+    font-size: 20px;
+    width: 50px;
+    height: 50px;
+}
+.demo {
+    width: 30%;
+    height: 150px;
+    border: 1px solid #74857f;
+    border-radius: 1px;
+    background-color: #e6e6e6;
+}
+.demo button {
+    width: 200px;
+    height: 50px; 
+
+}
+.demo div {
+    width: 50px;
+    height: 50px;
+    margin: 18px auto;
+    border:  1px solid #68726e;
+    border-radius: 50%;
+    font-size: 30px;
+    color: yellow;
+    text-align: center;
+    background-color: rgb(0, 183, 255);
+    text-shadow:  2px 1px rgb(19, 21, 22);
+}
+
+.login-form {
+    width: 40%;
+    padding: 50px;
+    background-color: #8bcbc8;
+}
+
+.nav {
+    padding: 30px;
+}
+
+.sign-login ul li a {
+    color: #fff;
+    font-size: 15px;
+}
+
+.sign-login ul li a:hover {
+   background-color: #8bcbc8 ;
+}
+
+/*.sign-login ul li {
+    background-color: rgb(218, 70, 70);
+} */
+
+.create-account {
+    margin: 20px 30px;
+}
+
+.login-account {
+    margin: 20px 30px;
+
+}
+
+
+
