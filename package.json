@@ -1,5 +1,5 @@
 {
-  "name": "Bingo Game",
+  "name": "bingo",
   "version": "1.0.0",
   "main": "app.js",
   "dependencies": {
