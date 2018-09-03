@@ -24,22 +24,6 @@ function showTicket() {
 }
 
 
-/*function winner() {
-    var a = nextNumber();
-    var counter = 0;
-    for (i = 0; i < 9; i++) {
-        var w = document.getElementById('item' + (i + 1));
-        if (w === a) {
-            counter++
-            if (counter == 5) {
-                alert('winner');
-            }
-        }
-    }
-}
-winner(); */
-
-
 
 // Pulling out numbers
 function startGame() {
