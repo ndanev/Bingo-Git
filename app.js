@@ -106,5 +106,5 @@ function startGame() {
 
 // listening on port 3000
 app.listen(process.env.port || 4000, function() {
-    console.log('Listening on port 3000...');
+    console.log('Listening on port 4000...');
 });
