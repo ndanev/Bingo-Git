@@ -9,11 +9,6 @@ var session = require('express-session');
 var cookieParser = require('cookie-parser');
 var passport = require('passport');
 var LocalStrategy = require('passport-local').Strategy;
-var mongo = require('mongodb');
-var mongoose = require('mongoose');
-
-mongoose.connect('mongodb://localhost/bingo-game', { useNewUrlParser: true });
-var db = mongoose.connection;
 
 
 var routes = require('./routes/index');
@@ -85,22 +80,6 @@ app.use(function (req, res, next) {
     res.locals.user = req.user || null;
     next();
   });
-
-
-// route bingo game
-//app.get('/bingo-game', function(req, res) {
-  //  res.sendFile(path.join(__dirname + '/index.html'));
-//});
-
-// route login page
-//app.get('/login', function(req, res) {
-    //res.sendFile(path.join(__dirname + '/login.html'));
-//});
-
-// route sign up page
-//app.get('/signup', function(req, res) {
-   // res.sendFile(path.join(__dirname + '/signup.html'));
-//})
 
 
 //generate ticket
